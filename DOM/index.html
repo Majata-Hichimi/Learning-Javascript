@@ -1,0 +1,38 @@
+<!--HTML file for Javascript DOM activity-->
+<!--DOM is a composition of nodes that represent an HTML web page-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--head element containing all meta data about web page-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--main webpage body-->
+<body>
+
+    <!--Paragraph element with an id set for DOM testing-->
+    <p id="example">Majata Hichimi</p>
+    <h1>His Name is Majata</h1>
+    <p class="userName">User is assigned to Majata Hichimi</p>
+    <script>
+        //variable declartion to hold DOM method
+        const myName = document.getElementById("example");
+
+        myName.innerHTML = "He is the programmer";
+;
+    </script>
+
+    <script>
+        const myIntro = document.getElementsByTagName("h1");
+        //DOM property
+        myIntro.innerHTML = "Hichimi made me"   
+        
+        const newUser = document.getElementsByClassName("userName");
+        newUser.innerHTML = "Majata is the new user";
+
+
+    </script>
+    
+</body>
+</html>
