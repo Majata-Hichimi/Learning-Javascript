@@ -14,5 +14,5 @@
  * -Callbacks(this is a function passed as a parameter to another function
  *      intended to be executed later due to an event)
  * -Promises(this represent a vaue that may be avalable at anytime or not at all)
- * -Async/Await()
+ * -Async/Await(cleaner and more modern way of writting asynchronous code)
  */
