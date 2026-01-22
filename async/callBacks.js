@@ -44,4 +44,15 @@ function greetThisUser(userGreet){
     userGreet(userName);
 }
 
+//inline callbacks
+function tellMeHisAge(){
+    console.log('He is 21');
+}
+
+tellMeHisAge(function(age){
+    console.log(age+" years old");
+})
+
+
+
 greetThisUser(sayHello);
